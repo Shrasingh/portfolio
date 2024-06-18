@@ -15,7 +15,7 @@ export default function Intro() {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
-    <section ref={ref} className='mb-30 max-w-[50rem] text-center mt-4 scroll-mt-28 sm:mb-0' id='home'>
+    <section ref={ref} className='mb-30 max-w-[50rem] text-center mt-5 scroll-mt-28 sm:mb-0' id='home'>
       <div className="flex items-center justify-center">
         <div className='relative w-[200px] h-[200px]'>
           <motion.div
@@ -47,7 +47,7 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 font-medium text-xl sm:text-3xl leading-snug text-gray-800 dark:text-gray-100"
+        className="mb-14 mt-7 px-4 font-medium text-2xl sm:text-3xl leading-snug text-gray-800 dark:text-gray-100"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -83,14 +83,14 @@ export default function Intro() {
         </a>
         <a
           className="bg-white p-3 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/shivang-tripathi-4294ab26b/"
+          href="https://www.linkedin.com/in/shraddha-singh-243747221/"
           target="_blank"
         >
           <BsLinkedin />
         </a>
         <a
           className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/shivang-tripati"
+          href="https://github.com/Shrasingh"
           target="_blank"
         >
           <FaGithubSquare />

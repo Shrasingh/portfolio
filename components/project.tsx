@@ -40,7 +40,7 @@ export default function Project({
               {description}
             </p>
             <div className="mt-2 mb-3">
-            <Link className="w-full px-3 py-2 bg-black/[0.9] text-center text-white rounded-lg " href={url}>visit to the website</Link>
+            <Link className="w-full px-3 py-2 bg-black/[0.9] text-center text-white text-[0.8rem] rounded-lg " href={url}>Explore {title}🚀</Link>
             </div>
             <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
               {tags.map((tag, index) => (

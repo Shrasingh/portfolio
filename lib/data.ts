@@ -54,7 +54,7 @@ export const links = [
       title: "DeployMate",
       description:
         "DeployMate: Automate GitHub project deployment with Next.js frontend and AWS backend.",
-      url : 'https://github.com/',
+      url : 'https://github.com/Shrasingh/portfolio',
       tags: [ "Next.js", "TypeScript", "PostgreSQL", "Tailwind", "Docker", "AWS",  "Kafka", "ClickHouse"],
       imageUrl: DeployMate,
     },
