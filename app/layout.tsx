@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Shraddha Singh ",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+  description: "Shraddha Singh is a full-stack DevOps CLOUD AWS Enthusiast.",
 };
 
 export default function RootLayout({
