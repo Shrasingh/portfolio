@@ -2,7 +2,7 @@ import React from 'react'
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from 'react-icons/lu';
-import QuickCart from "@/public/quickcart.png";
+import QuickCart from "@/public/QuickCart.png";
 import DeployMate from "@/public/DeployMate.png";
 import EcommerceCloud from "@/public/EcommerceCloud.png"
 
