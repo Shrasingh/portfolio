@@ -46,7 +46,7 @@ export const links = [
       title: "Ecommerce Cloud",
       description:
         "EcommerceCloud: Multi-store management dashboard with secure user authentication and reliable database management.",
-      url : 'ecommerce-cloud-indol.vercel.app',
+      url : 'https://ecommerce-cloud-indol.vercel.app/',
       tags: ["React", "Next.js",  "TypeScript", "Tailwind", "Zustand", "Supabase", "Prisma", "Stripe", "Clerk"],
       imageUrl: EcommerceCloud,
     },
@@ -54,7 +54,7 @@ export const links = [
       title: "DeployMate",
       description:
         "DeployMate: Automate GitHub project deployment with Next.js frontend and AWS backend.",
-      url : 'https://github.com/Shrasingh/portfolio',
+      url : 'https://github.com/Shrasingh/',
       tags: [ "Next.js", "TypeScript", "PostgreSQL", "Tailwind", "Docker", "AWS",  "Kafka", "ClickHouse"],
       imageUrl: DeployMate,
     },
