@@ -5,7 +5,7 @@ import { LuGraduationCap } from 'react-icons/lu';
 import QuickCart from "@/public/QuickCart.png";
 import DeployMate from "@/public/DeployMate.png";
 import EcommerceCloud from "@/public/EcommerceCloud.png"
-
+import { FaSchool } from 'react-icons/fa';
 export const links = [
     {
       name: "Home",
@@ -23,10 +23,10 @@ export const links = [
       name: "Skills",
       hash: "#skills",
     },
-    // {
-    //   name: "Experience",
-    //   hash: "#experience",
-    // },
+    {
+      name: "Experience",
+      hash: "#experience",
+    },
     {
       name: "Contact",
       hash: "#contact",
@@ -92,30 +92,56 @@ export const links = [
     "Redis",
     "Framer Motion",
 
-  ] as const;
-  export const experiencesData = [
+  ] as const;export const experiencesData = [
+    // {
+    //   title: "6th-12th",
+    //   location: "Jawahar Navodaya Vidyalaya Kanpur dehat",
+    //   icon: React.createElement(FaSchool),
+    // },
     {
-      title: "Graduated bootcamp",
-      location: "Miami, FL",
-      description:
-        "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      title: "BTECH CSE",
+      location: "CSJMU KANPUR",
+      description: "2021-2025",
       icon: React.createElement(LuGraduationCap),
-      date: "2025",
+      date: "dece2021-May2025",
     },
     {
-      title: "Front-End Developer",
-      location: "Orlando, FL",
-      description:
-        "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      title: "Full Stack Developer Intern",
+      location: "Sponsogram, Delhi",
+      description: `
+      
+        Designed, developed, and maintained 10+ dynamic React components and complex features, including an influencer dashboard, sidebar, and search bar, using Next.js, TypeScript, and React, improving performance by 25%. 
+       
+       
+        Translated 20\% of UI/UX designs into fully functional, interactive user interfaces, ensuring seamless performance across all major browsers with HTML, Tailwind CSS, and React. 
+       
+       
+        Enhanced user engagement by implementing responsive design and accessibility features, achieving a 30\% improvement in user satisfaction metrics on both desktop and mobile platforms. 
+        
+        
+        Optimized cross-browser compatibility and mobile responsiveness for web application user interfaces, reducing bug reports by 40\%. 
+        
+        
+        Collaborated with cross-functional teams to deliver high-quality solutions, contributing to an 18\% increase in user retention rates.
+      `,
       icon: React.createElement(CgWorkAlt),
-      date: "2019 - 2021",
+      date: "June 2024 – September 2024",
     },
     {
       title: "Full-Stack Developer",
-      location: "Houston, TX",
-      description:
-        "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      location: "Agility Solutions LLC",
+      description: `
+        Architected high-performance web applications using Next.js, React, TypeScript, and Tailwind CSS, improving load speeds by
+40\% and ensuring seamless cross-device experiences.
+ Constructed scalable RESTful & GraphQL APIs with NestJS, Node.js, and Prisma, cutting database query time by 10% while
+ensuring secure authentication & authorization.
+ Revamped application state management using React Context and optimized UI/UX with Tailwind CSS, decreasing API latency
+by 10\% and driving user engagement up 15\% through responsive dashboards.
+ Streamlined CI/CD pipelines using GitHub Actions, Docker, and AWS, reducing deployment time by 12\% and enabling
+zero-downtime releases.
+      `,
       icon: React.createElement(FaReact),
-      date: "2021 - present",
+      date: "december 2024 - March 2025",
     },
   ] as const;
+  

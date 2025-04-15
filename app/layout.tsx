@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Shraddha Singh ",
-  description: "Shraddha Singh is a full-stack DevOps CLOUD AWS Enthusiast.",
+  description: "Shraddha Singh is a full-stack developer, DevOps CLOUD AWS Enthusiast.",
 };
 
 export default function RootLayout({
