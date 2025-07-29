@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from 'react-icons/lu';
 import QuickCart from "@/public/QuickCart.png";
 import DeployMate from "@/public/DeployMate.png";
+import HireSight from "@/public/HireSight.png";
 import EcommerceCloud from "@/public/EcommerceCloud.png"
 import { FaSchool } from 'react-icons/fa';
 export const links = [
@@ -34,6 +35,25 @@ export const links = [
   ] as const;
   
   export const projectsData = [
+    
+     {
+  title: "Hiresight",
+  description:
+    "Hiresight is a full-stack AI-powered career coaching platform built with Next.js 14, React, and Tailwind CSS. It offers smart onboarding, real-time mock interviews with Gemini AI, personalized resume building, and weekly career insights via Inngest – all designed to accelerate your job readiness in one intuitive dashboard.",
+  url: "https://hiresight-three.vercel.app/",
+  tags: [
+    "Next.js",
+    "React",
+    "JavaScript",
+    "NextAuth.js",
+    " Gemini API",
+    "Inngest"
+  ],
+  imageUrl: HireSight, // replace with actual imported image
+}
+
+
+    ,
     {
       title: "QuickCart",
       description:

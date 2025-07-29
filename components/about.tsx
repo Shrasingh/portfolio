@@ -19,16 +19,20 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-            Hello! I'm a passionate full-stack developer with a strong proficiency in the{" "}
-            <span className="font-medium">MERN (MongoDB, Express.js, React, Node.js) stack</span>. 
-            My journey in web development has been marked by a commitment to learning, innovation, and delivering high-quality projects.
-        </p>
-        <p className="mb-3">
-            I am always eager to learn and take on new challenges, and I thrive in environments that push me to grow and innovate. Whether it's developing a new feature, optimizing performance, or tackling a complex problem, I am dedicated to delivering the best possible results.
-        </p>
-        <p className="mb-3">
-            Feel free to explore my portfolio to see some of the projects I've worked on and to get a sense of my coding style and capabilities. If you have any questions or would like to collaborate, don't hesitate to reach out!
-        </p>
+  Hello! I'm a passionate full-stack developer skilled in building fast, responsive, and scalable web apps using{" "}
+  <span className="font-medium">Next.js, React, TypeScript, Tailwind CSS, and the MERN stack</span>. 
+  My strength lies in crafting clean UIs, optimizing performance, and solving problems with precision.
+</p>
+<p className="mb-3">
+  I thrive in environments that demand innovation and deep technical thinking—from developing full-stack apps to architecting APIs with{" "}
+  <span className="font-medium">NestJS, Prisma, PostgreSQL, and Redis</span>. I'm also proficient in{" "}
+  <span className="font-medium">CI/CD, Docker, and cloud-native workflows</span>, making deployment smooth and efficient.
+</p>
+<p className="mb-3">
+  With a knack for Data Structures & Algorithms (LeetCode Rating 2045), I bring strong problem-solving skills to every project. 
+  Feel free to explore my portfolio and see how I combine performance, design, and innovation to deliver impactful solutions.
+</p>
+
 
     </motion.section>
   );

@@ -9,7 +9,7 @@ import { HiDownload } from 'react-icons/hi';
 import { FaGithubSquare } from 'react-icons/fa';
 import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
-
+import { SiLeetcode } from "react-icons/si";
 export default function Intro() {
   const { ref } = useSectionInView('Home', 0.4); // custom hook
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
@@ -52,13 +52,16 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Shraddha Singh.</span> I'm a{' '}
-        <span className="font-bold">full-stack developer</span> and a{' '}
-        <span className="font-bold">cloud native enthusiast.</span> I enjoy building{' '}
-        <span className="italic">software products and services.</span>
-        <span className=""> My focus is on </span>
-        <span className="underline">React (Next.js), Cloud (AWS)</span>{' '}
-        <span>and</span>{' '}
-        <span className="underline">DevOps.</span>
+<span className="font-bold">full-stack developer</span> with a passion for{' '}
+<span className="font-bold">problem solving and performance-driven development.</span>{' '}
+<span className="">I specialize in building</span>{' '}
+<span className="underline">Next.js applications, scalable APIs,</span>{' '}
+<span>and</span>{' '}
+<span className="underline">cloud-native, DevOps-enabled solutions.</span>{' '}
+<span className=""> I’m also deeply curious about </span>
+<span className="italic">AI, ML, and Generative AI technologies,</span>{' '}
+<span className="">always exploring new ways to innovate and grow.</span>
+
       </motion.h1>
 
       <div className='flex flex-col sm:flex-row gap-4 items-center justify-center'>
@@ -95,6 +98,14 @@ export default function Intro() {
         >
           <FaGithubSquare />
         </a>
+        
+<a
+  className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"
+  href="https://leetcode.com/Shrasingh/"
+  target="_blank"
+>
+  <SiLeetcode />
+</a>
       </div>
     </section>
   );
